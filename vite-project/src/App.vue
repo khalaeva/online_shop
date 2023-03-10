@@ -15,8 +15,11 @@ import Header from './components/Layout/Header.vue'
 }
 
 body {
+  margin: 0;
+  padding: 0;
   display: inline;
   font-family: 'Satoshi', sans-serif;
+  font-size: 16px;
 }
 .container{
   max-width: 1440px;
