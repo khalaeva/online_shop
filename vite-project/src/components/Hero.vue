@@ -17,17 +17,28 @@
     background-size: cover;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    padding-right: 80px;
     &-img {
         max-width: 100%;
     }
     &-info {
         background: #fff;
-        width: 630px;
+        max-width: 630px;
         padding: 50px 55px;
         height: 444px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        &__title {
+            font-weight: 400;
+            line-height: 1.5;
+            margin: 0 0 20px 0;
+            font-family: 'Clash Display', sans-serif;
+        }
+        &__description {
+            font-size: 18px;
+        }
         &-link {
             color: black;
             text-decoration: none;
