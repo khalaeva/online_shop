@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-    import HeroInformation from './HeroInformation.vue';
+    import HeroInformation from '@/HeroInformation.vue';
 </script>
 
 <style lang="scss" scoped>
