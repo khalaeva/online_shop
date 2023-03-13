@@ -4,7 +4,7 @@
             <div class="header-top-search">
                 <img src="/svg/header-search.svg" alt="search">
             </div>
-            <a href="#" class="header-logo">Online Shop</a>
+            <router-link to="/" class="header-logo">Online Shop</router-link>
             <div class="header-top-right">
                 <div class="header-top-right__cart">
                     <a href="#">

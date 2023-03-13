@@ -9,7 +9,6 @@
   </template>
   
   <script setup>
-  
   import Header from '@/components/Layout/Header.vue'
   import Hero from '@/components/Hero.vue'
   import AboutBrand from '@/components/AboutBrand.vue'
