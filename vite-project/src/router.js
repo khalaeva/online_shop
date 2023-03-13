@@ -7,7 +7,7 @@ const router = createRouter({
         {
             path: '/', 
             name: 'index', 
-            comment: index,
+            component: index,
         }
     ]
 })
