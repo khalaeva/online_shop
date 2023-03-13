@@ -1,4 +1,5 @@
 <template>
+  <div class="products-container">
     <div class="products">
         <Product
         v-for="product of products" 
@@ -7,6 +8,8 @@
         :title="product.title"
         :price="product.price"/>
     </div>
+    <a href="#" class="products-link">View collection</a>
+  </div>
 </template>
 
 <script setup>
@@ -47,5 +50,18 @@ const products = ref([
     display: flex;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
+    margin-bottom: 64px;
+    &-container {
+      margin-bottom: 56px;
+    }
+    &-link {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
 }
 </style>
