@@ -71,7 +71,7 @@
         color: black;
         font-size: 24px;
         text-decoration: none;
-        font-family: 'Clash Display', sans-serif;
+        font-family: var(--clash);
         text-align: center;
         &:hover {
             text-decoration: underline;

@@ -64,7 +64,7 @@ import { stringifyExpression } from '@vue/compiler-core';
             font-weight: 400;
             line-height: 1.5;
             margin: 0 0 20px 0;
-            font-family: 'Clash Display', sans-serif;
+            font-family: var(--clash);
         }
         &__description {
             font-size: 18px;

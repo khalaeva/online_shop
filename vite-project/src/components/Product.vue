@@ -36,7 +36,7 @@ const props = defineProps({
         display: block;
         font-size: 20px;
         line-height: 28px;
-        font-family: 'Clash Display', sans-serif;
+        font-family: var(--clash);
         margin-bottom: 8px;
         text-decoration: none;
         &:hover {
