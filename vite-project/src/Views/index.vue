@@ -5,6 +5,7 @@
       <AboutBrand/>
       <Products/>
       <Ideas/>
+      <Subscribe/>
     </div>
   </template>
   
@@ -14,6 +15,7 @@
   import AboutBrand from '@/components/AboutBrand.vue'
   import Products from '@/components/Product4Column.vue'
   import Ideas from '@/components/Ideas.vue'
+  import Subscribe from '@/components/Subscribe.vue'
   </script>
   
   
