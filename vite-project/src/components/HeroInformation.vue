@@ -8,15 +8,15 @@
                 class="hero-info__description"
                 :style="{color: colorDescription}">{{ description }}</span>
         </div>
-        <a 
-            :href="link" 
-            class="hero-info-link"
-            :style="{color: colorLink}">View Collection</a>
+        <ui-button :color="colorLink || 'second'" type="link" to="/">
+            View Collection 
+        </ui-button>
     </div>
 </template>
 
 <script setup>
 import { stringifyExpression } from '@vue/compiler-core';
+import uiButton from '@/components/UI/Button.vue';
 
     const prop=defineProps({
         title: {
@@ -41,7 +41,7 @@ import { stringifyExpression } from '@vue/compiler-core';
         },
         colorLink: {
             type: String, 
-            default: ''
+            required: false
         },
         background: {
             type: String,
@@ -60,6 +60,7 @@ import { stringifyExpression } from '@vue/compiler-core';
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: flex-start;
         &__title {
             font-weight: 400;
             line-height: 1.5;
@@ -68,20 +69,6 @@ import { stringifyExpression } from '@vue/compiler-core';
         }
         &__description {
             font-size: 18px;
-        }
-        &-link {
-            color: black;
-            text-decoration: none;
-            width: 170px;
-            height: 56px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(249, 249, 249, 0.15);
-            cursor: pointer;
-            &:hover {
-                background: rgba(249, 249, 249, 0.30);
-            }
         }
     }
 }

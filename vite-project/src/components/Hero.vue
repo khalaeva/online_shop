@@ -3,7 +3,8 @@
         <HeroInformation
         title="Luxury home"
         description="Description"
-        link="#"/>
+        link="#"
+        colorLink="lightgray"/>
     </div>
 </template>
 

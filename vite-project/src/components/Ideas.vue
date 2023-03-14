@@ -5,8 +5,7 @@
         description="description"
         colorTitle="white"
         colorDescription="white"
-        background="pink"
-        colorLink="white"/>
+        background="pink"/>
         <img src="/img/idea-1.jpg" alt="idea-1">
     </div>
 </template>
