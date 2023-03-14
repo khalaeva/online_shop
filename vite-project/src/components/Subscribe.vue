@@ -3,19 +3,13 @@
         <div class="subscribe-content">
             <h3 class="subscribe-title">Join to the club</h3>
             <span class="subscribe-description">subscribe description about shop and sign up</span>
-            <form class="subscribe-form">
-                <input 
-                    type="text" 
-                    placeholder="your@email.com" 
-                    class="input-text subscribe-form__input">
-                <ui-button>Sign Up</ui-button>
-            </form>
+            <sub-form/>
         </div>
     </div>
 </template>
 
 <script setup>
-import uiButton from '@/components/UI/Button.vue'
+import SubForm from '@/components/SubForm.vue';
 </script>
 
 <style lang="scss" scoped> 
